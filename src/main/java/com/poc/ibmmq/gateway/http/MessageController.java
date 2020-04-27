@@ -16,9 +16,9 @@ public class MessageController {
     private final SendNewMessage sendNewMessage;
 
     @PostMapping(value = "message")
-    public ResponseEntity createNewMessage(@RequestBody String newMessage) {
+    public ResponseEntity<String> createNewMessage(@RequestBody String newMessage) {
         log.info("Received message {}", newMessage);
         sendNewMessage.sendMessage(newMessage);
-        return ResponseEntity.ok().build();
+        return ResponseEntity.ok(newMessage);
     }
 }
