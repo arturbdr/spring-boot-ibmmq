@@ -16,7 +16,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <mq-jms-spring-boot-starter.version>2.3.2</mq-jms-spring-boot-starter.version>
+        <mq-jms-spring-boot-starter.version>2.3.4</mq-jms-spring-boot-starter.version>
         <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
     </properties>
 
