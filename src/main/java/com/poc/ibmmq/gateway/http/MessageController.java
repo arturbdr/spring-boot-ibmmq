@@ -22,4 +22,11 @@ public class MessageController {
         sendNewMessage.sendMessage(newMessage);
         return ResponseEntity.ok(newMessage);
     }
+
+    @PostMapping(value = "orderplacement", consumes = MediaType.TEXT_XML_VALUE)
+    public ResponseEntity<String> createNewOrderPlace(@RequestBody String newMessage) {
+        log.info("Received message createNewOrderPlace {}", newMessage);
+        sendNewMessage.sendMessage(newMessage);
+        return ResponseEntity.ok(newMessage);
+    }
 }
