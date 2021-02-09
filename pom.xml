@@ -83,7 +83,7 @@
                 <configuration>
                     <parameters>true</parameters>
                     <source>${maven.compiler.source}</source>
-                    <target>maven.compiler.target</target>
+                    <target>${maven.compiler.target}</target>
                 </configuration>
 
             </plugin>
