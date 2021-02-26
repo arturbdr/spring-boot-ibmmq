@@ -18,7 +18,7 @@
         <java.version>11</java.version>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <mq-jms-spring-boot-starter.version>2.3.4</mq-jms-spring-boot-starter.version>
+        <mq-jms-spring-boot-starter.version>2.4.3</mq-jms-spring-boot-starter.version>
         <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
     </properties>
 
